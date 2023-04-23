@@ -1,3 +1,209 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(228, 215, 179);
+    padding: 0 100px;
+    line-height: 25px;
+}
+
+.sekce-hlavicka {
+    background-image: url(Obrázky/1.uvodnifotka.jpg);
+    padding: 200px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    color:rgb(231, 215, 215);
+    font-style:italic;
+    text-align: center;
+    margin:0;
+}
+
+.menu {
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color: rgb(245, 221, 191);
+}
+
+.menu li {
+    display:inline-block;
+}
+
+.menu a {
+    padding: 20px 20px;
+    display:inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+    text-decoration: none; 
+
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color:beige;
+}
+
+
+h2 {
+    color:rgb(170, 44, 208);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(219, 36, 164);
+    text-align:left;
+}
+
+.sekce-onas {
+    overflow: auto;
+    clear:both;
+    border-bottom: 1px dotted brown;
+    padding-bottom: 15px;
+    
+}
+
+img {
+    border-radius: 12px;
+    border: 1px dotted brown
+}
+
+.jaaciri {
+    width: 200px;
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
+.sekce-utuloktulacik {
+    clear:both;
+    overflow: auto;
+    border-bottom: 1px dotted brown;
+    padding-bottom: 15px;
+}
+
+.sindy {
+    width: 200px;
+    float: right;
+    margin: 10px 0 10px 20px;
+}
+
+.ciridoma {
+    width: 250px;
+    float: left;
+    margin: 10px 20px 10px 0;
+}
+
+.sekce-novydomov {
+    clear:both;
+    overflow: auto;
+    border-bottom: 1px dotted brown;
+    padding-bottom: 15px;
+}
+
+.sekce-cvicak {
+    clear:both;
+    overflow: auto;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted brown;
+}
+
+.cirinacvicaku2 {
+    width: 200px;
+    float: right;
+    margin: 10px 0 10px 60px;
+}
+
+.cirinacvicaku {
+    width: 200px;
+    float: left;
+    margin: 10px 60px 10px 0px;
+}
+
+.sekce-cestovatelkaroku {
+    clear:both;
+}
+
+.sekce-fotogalerie {
+    border-bottom: 1px dotted brown;
+    padding-bottom: 15px
+}
+
+.sekce-fotogalerie img {
+    width: 200px;
+    width: 49%;
+    overflow: auto;
+}
+
+.sekce-cirikpobaveni {
+    border-bottom: 1px dotted brown;
+    overflow:auto;
+}
+
+.sekce-cirikpobaveni img {
+    border-radius: 10px;
+}
+
+.foto-ciriseusmiva {
+    width:200px;
+    float: right;
+    margin: 10px 0 10px 20px;
+  
+}
+
+.foto-cirivlisti {
+    width:250px;
+    float: left;
+    margin: 10px 20px 30px 0;
+}
+
+.sekce-jakpomoci {
+    clear:both;
+    border-bottom: 1px dotted brown;
+}
+
+.citat {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    padding-top: 30px
+}
+
+.utulky a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.utulky a:hover  {
+    color:rgb(168, 41, 126)
+}
+
+.sekce-kontakt {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.sekce-kontakt a {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.sekce-kontakt a:hover{
+    color:rgb(168, 41, 126);
+}
+
+footer {
+    color:rgb(231, 226, 195);
+    text-align: center;
+    background-color: rgb(204, 132, 192);
+    padding: 20px
+}
